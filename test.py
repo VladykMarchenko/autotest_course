@@ -1,2 +1,10 @@
-a = input("Murzik, Barsik, Pantera")
-print(a)
+countries = "Ukraine, Spain, Italy"
+a1 = "Ukraine:"
+b1 = " Kyiv"
+a2 = "Spain:"
+b2 = " Madrid"
+a3 = "Italy:"
+b3 = " Madrid"
+print(a1+b1)
+print(a2+b2)
+print(a3+b3)
