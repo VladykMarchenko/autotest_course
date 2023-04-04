@@ -1,11 +1,7 @@
 countries = ['Ukraine', 'Spain', 'Italy']
-UA = {countries[0]: "Kyiv"}
+UA = {countries[0]: "Kyiv", countries[1]: "Madrid", countries[2]: "ROME"}
 for key in UA:
+    total = {countries[0]: "Kyiv", countries[1]: "Madrid", countries[2]: "ROME"}
     print(key, UA[key], sep=': ')
-SP = {countries[1]: "Madrid"}
-for key in SP:
-    print(key, SP[key], sep=': ')
-IT = {countries[2]: "ROME"}
-for key in IT:
-    print(key, IT[key], sep=': ')
+
 
