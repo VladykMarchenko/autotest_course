@@ -1,15 +1,4 @@
-
-
-a = input("vibrat ")
-height = int(a)
+height = int(input("vibrat "))
 symbol = input("Enter symbol: ")
-for row_level in range(height):
-    string = '' # крайнее поле слева, в данном случае пустое
-    for left_step in range(height - row_level): # управляем направление +\-
-        string += ' '
-        string += symbol
-    print(string)
-
-
-
-
+for row in range(1, height +1):
+    print(" " * (height-row) + symbol * row)
