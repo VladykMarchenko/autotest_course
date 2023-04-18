@@ -1,7 +1,15 @@
-vibor_texta = input("text viberi: ")
-gg = vibor_texta.split()
-gg_new = ""
+# "    aBC cba " # True
+# "a BCQcb a    " # True
+# " ab bca"  # False
 
-for pp in gg:
-    if pp.count("a") == 2:
-        print(pp)
+str1 = input("Enter polidron1: ")
+str3 = str1.lower().strip()
+if str3 == str3[::-1]:
+    print("true")
+else:
+    print("false")
+
+if str3 == "".join(reversed(str3)):
+    print("true")
+else:
+    print("false")
