@@ -5,4 +5,5 @@ for line in file:
     for word in words:
         if len(word) > len(max_word):
             max_word = word
+            max_word = ''.join(max_word)
 print(max_word)
