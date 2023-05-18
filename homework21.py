@@ -1,12 +1,12 @@
 def log_txt(dump):
-    with open("log.txt", "+w") as wt:
+    with open("user_out.txt", "w") as wt:
         wt.write(dump)
 
 
 def log_json(dump):
     import json
 
-    with open("log.json", "+w") as wj:
+    with open("users.json", "w") as wj:
         wj.write(json.dumps(dump))
 
 
@@ -48,8 +48,7 @@ def obtain_logs(file_path):
         "json": res_json,
     }
 
-
-dumps = obtain_logs('dict.txt')
+dumps = obtain_logs('users.txt')
 
 log_txt(dumps["txt"])
 log_json(dumps["json"])
