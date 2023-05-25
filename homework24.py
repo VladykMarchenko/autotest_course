@@ -1,6 +1,6 @@
 def second_largest_number(lst):
     if lst == []:
-        return
+        return "None"
     first, second, *_array = lst
     if not second:  # or not _array
         return second
