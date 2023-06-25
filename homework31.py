@@ -10,11 +10,4 @@ def get_random_string(length: int):
         else:
             result += chr(random_num - 4)
     return result
-
 print(get_random_string(71))
-
-
-
-
-# random.shuffle сверху закинуть для перемещивания списка
-
